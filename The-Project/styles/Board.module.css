@@ -1,0 +1,49 @@
+
+
+.alone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.15rem;
+  /* margin: min(30%, 5rem); */
+}
+.alone #crown {
+  width: 3rem;
+  height: 3rem;
+  border: unset;
+  padding: unset;
+
+  -webkit-animation: crown-animation 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: crown-animation 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.alone  img {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  border: 0.2rem solid #3b49df;
+  transition: scale 0.3s;
+}
+
+.alone  img:hover {
+  scale: 1.05;
+}
+
+
+
+.alone  p {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+
+
+
+.revenue {
+  color: #3b49df;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
