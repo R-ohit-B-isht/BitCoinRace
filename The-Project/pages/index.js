@@ -2,7 +2,7 @@ import PostFeed from '@components/PostFeed';
 import Metatags from '@components/Metatags';
 import Loader from '@components/Loader';
 import { firestore, fromMillis, postToJSON } from '@lib/firebase';
-import Leader from './leaders';
+import Leader from '@components/leaders';
 import { useState } from 'react';
 
 // Max post to query per page

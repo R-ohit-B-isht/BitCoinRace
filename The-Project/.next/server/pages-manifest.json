@@ -1,7 +1,13 @@
 {
+  "/404": "pages/404.html",
+  "/[username]/[slug]": "pages/[username]/[slug].js",
+  "/[username]": "pages/[username].js",
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
+  "/admin/[slug]": "pages/admin/[slug].html",
+  "/admin": "pages/admin.html",
+  "/api/[username]": "pages/api/[username].js",
+  "/enter": "pages/enter.html",
   "/": "pages/index.js",
-  "/[username]": "pages/[username].js"
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
 }
